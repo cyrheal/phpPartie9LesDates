@@ -1,0 +1,31 @@
+calendar__table{
+    width: 100%;
+}
+calendar__table td{
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    width: 14.29%; /* 100 / 7*/
+}
+
+
+
+
+body{
+    background-color: #c98dc9;
+}
+.result{
+    background-color: #bfbfbf;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 20px;   
+}
+.exercice{
+    background-color: darkseagreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 20px;
+}
+

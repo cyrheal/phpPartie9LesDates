@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #1C1C1C;
+}
+.container{
+  margin: 0 auto;
+  width: 80vw;
+  padding: 5px;
+  border-radius: 20px;
+  background: darkcyan;
+  box-shadow: inset 1px 1px 1px rgba(0,0,0,.3);
+}
+.container h1,
+.container h2{
+  text-align: center;
+}
+.desc{
+  margin: 0 auto;
+  width: 50vw;
+  padding: 15px;
+  border-radius: 20px;
+  background: darkred;
+  color: white;
+  box-shadow: inset 2px 4px 7px rgba(0,0,0,1);
+}
+.desc h5{
+  text-align: center;
+}
+pre{
+  margin: 10px auto;
+  width: 75vw;
+  padding: 5px;
+  border-radius: 20px;
+  background: darkgrey;
+  box-shadow: inset 2px 4px 7px rgba(0,0,0,1);
+}
+pre.red{
+  margin: 10px auto;
+  width: 50vw;
+  padding: 15px;
+  border-radius: 20px;
+  background: darkred;
+  color: white;
+  box-shadow: inset 2px 4px 7px rgba(0,0,0,1);
+}
+fieldset{
+  padding: 20px;
+  background: rgba(0,0,0,.2);
+  border-radius: 20px;
+  box-shadow: inset 2px 4px 7px rgba(0,0,0,1);
+}
+legend {
+  text-align: center;
+    background-color: rgba(0,0,0,1);
+    color: wheat;
+    padding: 3px 6px;
+    box-shadow: inset 0 6px 7px rgba(255,255,255,1);
+    border-radius: 20px;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    margin-top: 50px;
+}
+.legend2 {
+  text-align: center;
+    background-color: rgba(0,0,0,1);
+    color: wheat;
+    padding: 3px 6px;
+    box-shadow: inset 0 6px 7px rgba(255,255,255,1);
+    border-radius: 20px;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    margin-bottom: -20px;
+}
+.form-control{
+  box-shadow: inset 2px 4px 7px rgba(0,0,0,1);
+  background: rgba(0,0,0,.2);
+  color: wheat;
+  border-color: cyan;
+}
+.form-control:focus{
+  box-shadow: inset 2px 4px 7px rgba(0,0,0,1);
+  background: rgba(0,0,0,.2);
+  color: wheat;
+  border-color: gold;
+}
+.btn{
+  box-shadow: inset 0 6px 7px rgba(255,255,255,1);
+  border-radius: 20px;
+  background: darkcyan;
+  border: 1px gold solid !important;
+}
+label{
+  margin-top: 10px;
+  color: wheat;
+}
+.dayCalendar{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px darkcyan,
+                 2px 2px 1px darkcyan;
+    
+}
+.dayCalendar2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    box-shadow: inset 4px 5px 18px rgba(0,0,0,.4);
+    background: #2C2C2C; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-shadow: 1px 1px 1px darkcyan,
+                 2px 2px 1px darkcyan;
+    
+}
+.numberCalendar{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
